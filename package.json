@@ -1,0 +1,24 @@
+{
+  "name": "api-mongo-alura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyOliveira98/api-mongo-alura.git"
+  },
+  "keywords": [],
+  "author": "Wesley Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesleyOliveira98/api-mongo-alura/issues"
+  },
+  "homepage": "https://github.com/WesleyOliveira98/api-mongo-alura#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -43,6 +43,14 @@ class LivroController {
             else res.status(200).json({message: 'Livro excluido com sucesso!'});
         });
     }
+
+    static listarLivrosPorEditora = (req, res) => {
+        const editora = req.query.editora;
+        livros.find({'editora': editora}, {}, (err, livros) => {
+            if (err) res.status(404).json({erro: err.message});
+            else res.status(200).json(livros);
+        });
+    }
 }
 
 export default LivroController;

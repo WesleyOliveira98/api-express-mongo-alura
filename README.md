@@ -7,6 +7,7 @@
 </ul>
 <h3>Dependências utilizadas:</h3>
 <ul>
+    <li>dotenv</li>
     <li>express</li>
     <li>mongoose</li>
     <li>nodemon</li>

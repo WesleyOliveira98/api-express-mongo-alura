@@ -1,5 +1,9 @@
-import mongoose from 'mongoose';
+import mongoose from 'mongoose'
+import {} from 'dotenv/config';
 
-mongoose.connect("mongodb+srv://wesley:pass123@aluraapi.l8lz5.mongodb.net/alura-node");
+const user = process.env.USER;
+const pass = process.env.PASS;
+
+mongoose.connect(`mongodb+srv://${user}:${pass}@aluraapi.l8lz5.mongodb.net/alura-node`);
 
 export default mongoose.connection;
